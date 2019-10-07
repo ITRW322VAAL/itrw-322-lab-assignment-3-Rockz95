@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+
 import socket
 
-HOST = '127.0.0.1'
-PORT = 9999
+HOST = '127.0.0.1' #Standard loopback interface address(local host)
+PORT = 9999	   #Port to listen on
 
 with socket.socket(socket.AF_INET, socket_Stream) as  s:
 	s.bind(HOST, PORT))
